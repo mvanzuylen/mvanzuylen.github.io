@@ -40,7 +40,7 @@ a:hover {
 a:active {
     text-decoration: none;
   }
-.underline-homepage {
+.underline-contact {
     text-decoration: underline;
 }
 .font-style{
@@ -50,7 +50,7 @@ a:active {
 .image { 
     grid-area: image;
 }
-.about { 
+.contact { 
     grid-area: about;
     padding: 30px;
 }
@@ -59,19 +59,21 @@ img{
     height: auto;
     max-width: 100%;
 }
-.about-me-container {
+.contact-container {
     display: grid;
     grid-template-areas:
         'image about';
     grid-template-columns: 50% 50%;
 }
-.about-me-header{
+.contact-header{
     text-align: center;
 }
-.about-me-body{
-    text-align: left;
+.table-links a{
+    color: black !important;
+    text-decoration: underline;
 }
-
-
+td, th {
+    padding: 1rem;
+}
 
 
