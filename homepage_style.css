@@ -1,0 +1,75 @@
+.name-button { 
+    grid-area: name;
+}
+.projects-button { 
+    grid-area: projects;
+}
+.cooking-button { 
+    grid-area: cooking;
+}
+.contact-button { 
+    grid-area: contact;
+}
+.nav-bar-container {
+    display: grid;
+    position: sticky;
+    grid-template-areas:
+        'name projects cooking contact';
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    height: 100px;
+    grid-gap: 10px;
+    background-color: rgba(109, 242, 242, 0.769);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.button-format {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color:  white;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+  }
+.font-style{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.image { 
+    grid-area: image;
+}
+.about { 
+    grid-area: about;
+    padding: 30px;
+}
+img{
+    border-radius: 8px;
+    height: auto;
+    max-width: 100%;
+}
+.about-me-container {
+    display: grid;
+    grid-template-areas:
+        'image about';
+    grid-template-columns: 50% 50%;
+}
+.about-me-header{
+    text-align: center;
+}
+.about-me-body{
+    text-align: left;
+}
+
+
+
+
