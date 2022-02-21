@@ -57,7 +57,7 @@ a:active {
 }
 .about { 
     grid-area: about;
-    padding: 30px;
+    padding-left: 30px;
 }
 img{
     border-radius: 8px;
@@ -84,6 +84,44 @@ img{
     background-color: rgb(48, 159, 159);
     border-radius: 8px;
     margin-top: 20px;
+}
+
+@media (max-width: 750px){
+    .nav-bar-container {
+        height: 75px;
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+    h1 {
+        font-size: smaller;
+    }
+    h3 {
+        font-size: smaller;
+    }
+}
+@media (max-width: 450px){
+    .nav-bar-container {
+        height: 75px;
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+    h1 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    .about-me-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about { 
+        padding: 5px;
+    }
+    .about-me-header{
+        text-align: left;
+    }
 }
 
 
