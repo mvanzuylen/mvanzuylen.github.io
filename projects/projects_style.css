@@ -11,7 +11,7 @@
     grid-area: contact;
 }
 .nav-bar-container {
-    display: grid;
+    display: grid; 
     position: sticky;
     top: 0%;
     z-index: 100;
@@ -42,37 +42,32 @@ a:hover {
 a:active {
     text-decoration: none;
   }
-.underline-homepage {
+.underline-projects {
     text-decoration: underline;
+    font-size: larger;
 }
 .font-style{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-.image { 
-    grid-area: image;
+.text-box{
+    padding-top: 3%;
+    padding-left: 5%;
+    width: 50%;
+    z-index: 0;
 }
-.about { 
-    grid-area: about;
-    padding: 30px;
+ul li {
+    padding: 5px;
 }
-img{
-    border-radius: 8px;
-    height: auto;
-    max-width: 100%;
+.list-links a{
+    color: black;
+    text-decoration: underline;
 }
-.about-me-container {
-    display: grid;
-    grid-template-areas:
-        'image about';
-    grid-template-columns: 50% 50%;
+.font-style-text{
+    font-family: Arial, Helvetica, sans-serif;
 }
-.about-me-header{
-    text-align: center;
-}
-.about-me-body{
-    text-align: left;
-}
+
+
 
 
 
