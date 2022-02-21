@@ -14,7 +14,7 @@
     display: grid;
     position: sticky;
     top: 0%;
-    z-index: 100;
+    z-index: 100;   
     grid-template-areas:
         'name projects cooking contact';
     grid-template-columns: 4fr 1fr 1fr 1fr;
@@ -42,8 +42,9 @@ a:hover {
 a:active {
     text-decoration: none;
   }
-.underline-homepage {
+.underline-cooking {
     text-decoration: underline;
+    font-size: larger;
 }
 .font-style{
     font-family: Arial, Helvetica, sans-serif;
@@ -52,31 +53,32 @@ a:active {
 .image { 
     grid-area: image;
 }
-.about { 
-    grid-area: about;
+.cooking { 
+    grid-area: cooking;
     padding: 30px;
 }
 img{
     border-radius: 8px;
     height: auto;
     max-width: 100%;
+    top: 120px;
+    position: sticky;
 }
-.about-me-container {
+.cooking-container {
     display: grid;
     grid-template-areas:
-        'image about';
+        'image cooking';
     grid-template-columns: 50% 50%;
 }
-.about-me-header{
+.cooking-header{
     text-align: center;
 }
-.about-me-body{
+.cooking-body{
     text-align: left;
 }
-.about-font-style{
+.recipie-font-style{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
+ul li {
+    padding: 2px;
+}

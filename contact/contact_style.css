@@ -78,5 +78,6 @@ img{
 td, th {
     padding: 1rem;
 }
-
-
+.about-font-style{
+    font-family: Arial, Helvetica, sans-serif;
+}
