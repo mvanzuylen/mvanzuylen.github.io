@@ -82,3 +82,9 @@ img{
 ul li {
     padding: 2px;
 }
+.footer {
+    height: 100px;
+    background-color: rgba(109, 242, 242, 1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
