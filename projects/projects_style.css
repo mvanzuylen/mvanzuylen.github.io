@@ -20,7 +20,7 @@
     grid-template-columns: 4fr 1fr 1fr 1fr;
     height: 100px;
     grid-gap: 10px;
-    background-color: rgba(109, 242, 242, 1);
+    background-color: rgb(48, 159, 159);
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -70,7 +70,7 @@ ul li {
 }
 .footer {
     height: 100px;
-    background-color: rgba(109, 242, 242, 1);
+    background-color: rgb(48, 159, 159);
     border-radius: 8px;
     margin-top: 20px;
 }
