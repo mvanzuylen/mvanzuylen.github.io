@@ -1,56 +1,6 @@
-.name-button { 
-    grid-area: name;
-}
-.projects-button { 
-    grid-area: projects;
-}
-.cooking-button { 
-    grid-area: cooking;
-}
-.contact-button { 
-    grid-area: contact;
-}
-.nav-bar-container {
-    display: grid;
-    position: sticky;
-    top: 0%;
-    z-index: 100;
-    grid-template-areas:
-        'name projects cooking contact';
-    grid-template-columns: 4fr 1fr 1fr 1fr;
-    height: 100px;
-    grid-gap: 10px;
-    background-color: rgb(48, 159, 159);
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-.button-format {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-a:link {
-    text-decoration: none;
-    transition: font-size 1s;
-}
-a:visited {
-    text-decoration: none;
-    color:  white;
-}
-a:hover {
-    text-decoration: underline;
-    font-size: larger;
-}
-a:active {
-    text-decoration: none;
-  }
 .underline-homepage {
     text-decoration: underline;
     font-size: larger;
-}
-.font-style{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
 .image { 
     grid-area: image;
@@ -79,38 +29,7 @@ img{
 .about-font-style{
     font-family: Arial, Helvetica, sans-serif;
 }
-.footer {
-    height: 100px;
-    background-color: rgb(48, 159, 159);
-    border-radius: 8px;
-    margin-top: 20px;
-}
-@media (max-width: 890px){
-    .nav-bar-container {
-        height: 75px;
-        padding-left: 10px;
-        padding-right: 10px;
-        grid-template-columns: 2fr 1fr 1fr 1fr;
-    }
-    h1 {
-        font-size: smaller;
-    }
-    h3 {
-        font-size: smaller;
-    }
-}
 @media (max-width: 450px){
-    .nav-bar-container {
-        height: 75px;
-        padding-left: 20px; 
-        padding-right: 20px;
-    }
-    h1 {
-        font-size: 12px;
-    }
-    h3 {
-        font-size: 12px;
-    }
     .about-me-container{
         display: flex;
         flex-direction: column;
