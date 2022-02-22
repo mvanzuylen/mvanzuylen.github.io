@@ -74,6 +74,40 @@ ul li {
     border-radius: 8px;
     margin-top: 20px;
 }
+@media (max-width: 890px){
+    .nav-bar-container {
+        height: 75px;
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+    h1 {
+        font-size: smaller;
+    }
+    h3 {
+        font-size: smaller;
+    }
+    .text-box{
+        width: 70%;
+    }
+}
+@media (max-width: 450px){
+    .nav-bar-container {
+        height: 75px;
+        padding-left: 20px; 
+        padding-right: 20px;
+    }
+    h1 {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    .text-box{
+        padding-top: 0%;
+        width: 85%;
+    }
+}
 
 
 
